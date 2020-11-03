@@ -10,8 +10,12 @@ namespace brasileirao
     [TestClass]
     public class UnitTest1
     {
+        //Instanciar a classe connection
         connection con = new connection();
+
+
         private static IWebDriver driver;
+
         private static string baseURL;
 
         [ClassInitialize]
